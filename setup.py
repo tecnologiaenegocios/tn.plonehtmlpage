@@ -25,7 +25,6 @@ setup(
         'plone.app.dexterity',
         'plone.directives.form',
         'plone.namedfile[blobs]',
-        'collective.autopermission',
         'lxml',
     ],
     extras_require={
