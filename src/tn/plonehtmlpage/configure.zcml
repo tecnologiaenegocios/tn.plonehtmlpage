@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:grok="http://namespaces.zope.org/grok"
+    i18n_domain="tn.plonehtmlpage"
+    >
+
+  <includeDependencies package="." />
+
+  <grok:grok package="." />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="TN Plone HTML Page"
+      directory="profiles/default"
+      description="Content type for raw HTML pages"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
