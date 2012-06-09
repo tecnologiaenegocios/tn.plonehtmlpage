@@ -1,2 +1,2 @@
 from zope.i18nmessageid import MessageFactory
-_ = MessageFactory('tn.plonehtmlimage')
+_ = MessageFactory('tn.plonehtmlpage')
