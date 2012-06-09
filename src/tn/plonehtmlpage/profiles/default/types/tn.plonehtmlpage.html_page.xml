@@ -6,8 +6,8 @@
     i18n:domain="plone"
     >
 
-  <property name="title" i18n:translate="tn.plonehtmlpage-html-page-title">HTML page</property>
-  <property name="description" i18n:translate="tn.plonehtmlpage-html-page-description">A pure HTML page</property>
+  <property name="title" i18n:translate="">tn.plonehtmlpage-html-page-title</property>
+  <property name="description" i18n:translate="">tn.plonehtmlpage-html-page-description</property>
   <property name="content_icon">html-page.png</property>
   <property name="allow_discussion">True</property>
   <property name="global_allow">True</property>
