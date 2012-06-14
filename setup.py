@@ -24,7 +24,6 @@ setup(
         'Plone',
         'plone.app.dexterity',
         'plone.directives.form',
-        'plone.namedfile[blobs]',
         'lxml',
     ],
     extras_require={
