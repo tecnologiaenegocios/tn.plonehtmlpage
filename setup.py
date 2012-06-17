@@ -24,6 +24,7 @@ setup(
         'Plone',
         'plone.app.dexterity',
         'plone.directives.form',
+        'tn.ploneformwidget.sourcecode',
         'lxml',
     ],
     extras_require={
