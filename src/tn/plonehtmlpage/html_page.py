@@ -1,6 +1,7 @@
 from five import grok
 from Products.CMFCore.utils import getToolByName
 from plone.directives import form
+from plone.supermodel import model
 from tn.ploneformwidget.sourcecode import SourceCodeFieldWidget
 from tn.plonehtmlpage import _
 from z3c.form import widget
@@ -9,7 +10,7 @@ import zope.interface
 import zope.schema
 
 
-class IHTMLPageSchema(form.Schema):
+class IHTMLPageSchema(model.Schema):
 
     title = zope.schema.TextLine(title=_(u'Name'))
 
